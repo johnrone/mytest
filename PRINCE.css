@@ -1,0 +1,208 @@
+#lay{width: 100px;
+    height: 30px;
+text-align: center;
+}
+table thead td{
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    font-size: larger;
+    
+
+}
+table{width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+border: 3px;
+border-style: solid;
+border-color:blue ;
+background-color: burlywood;
+}
+table td{
+    width: 3px;
+    border: 3px solid   ;
+    text-align: center;
+    font-style: italic;
+    font-size: larger;
+}
+.te{
+    padding-top: 10px;
+padding-bottom: 10px;
+text-align: center;
+float: left;
+width: 23.75%;
+margin-left: 2 ;
+}
+#tit{
+   
+    
+    padding: 20px;
+    text-shadow: 4px 0px 10px black;
+    letter-spacing: 2px;
+    font-style: italic;
+  
+}
+#sec{
+    font-size: 20px;
+    font-style: italic;
+}
+#bu{
+    cursor: pointer;
+}
+#ar{
+    text-align: right
+}
+#no{
+
+    border-color:red blue green yellow ;
+    border-width: 10px;
+    border-style: solid;
+    box-sizing: content-box;
+}
+p{
+    padding: 20px;
+    color: tomato;
+    font-size: xx-large;
+    font-family: sans-serif;
+}
+#tit{
+    background-color:goldenrod ;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px black inset ;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    
+}   
+#tit:hover{
+    
+    margin-left: 20px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+}
+.ch:checked + label  {
+    color: rgb(10, 240, 125) ;
+}
+.pa{
+    counter-increment: co;
+}
+.c::after{  
+    background-color: blue;
+    font-weight: bold;
+    height: auto;
+    width: 20px;
+    content: counter(co);
+}
+.one{
+
+    border: 10px solid black;
+    box-sizing: border-box;
+}
+.c{
+    border: 10px solid black;
+    caret-color:rgb(241, 80, 6) ;
+    
+     box-sizing: border-box  ;
+     
+
+}
+.j{
+
+    
+    
+    background-color: blueviolet;
+    width: 600px;
+    padding: 20px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:;
+    align-items: stretch;
+    
+      
+}
+.j div{
+    
+    background-color: crimson;
+    width: calc(90/3);
+    font-size: x-large;
+    font-weight: bold;
+    color: darkgreen ;
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 20px;
+ 
+}
+.m{
+    background-color: burlywood;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content:center;    align-items:center ;
+}
+img{
+   filter:blur(4px);
+
+
+}
+img:hover{
+    filter:blur(0);
+    
+}
+.test{
+    width: 400px;height: 400px ;
+    background-image: linear-gradient(to left , blue ,rgb(119, 75, 75));
+}
+.parent1{
+    display: grid;
+ background-color: rgb(0, 0, 0);
+    justify-content: space-evenly;
+    width: 600px;
+    height: 400px;
+    grid-template-columns: repeat(3,auto); 
+    grid-template-rows: repeat(2,auto);
+    row-gap: 10px;
+    column-gap: 10px;
+    justify-content: center;
+    align-content: center;
+
+}
+.parent1 div{ 
+    font-size:xx-large;
+    margin: 20px auto;
+    
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-image: linear-gradient(to right , blue,white);
+    
+}
+.logo{
+
+    height: 100px;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: auto auto auto;
+    grid-template-areas: "logo logo  nav nav nav nav nav nav nav nav""cont cont cont cont cont cont cont side side side" ;
+}
+h3{
+    grid-area: logo;
+}
+nav{
+    grid-area: nav;
+}
+section {
+    grid-area: cont;
+}
+aside{
+    grid-area: side;
+}
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}  
+}
